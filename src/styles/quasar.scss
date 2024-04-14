@@ -1,0 +1,74 @@
+@import './quasar.variables.scss';
+@import '~quasar-styl';
+// @import '~@quasar/quasar/dist/quasar.css';
+// @import '~quasar-addon-styl';
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+    .header .q-space{
+        display: none!important;
+    }
+    .header .q-toolbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    }
+    .head-list{
+        display: none;
+    }
+    .header-row{
+        flex-direction: column;
+    }
+    .header-row .col-6{
+        width: 100%!important;
+    }
+    .header-row .content{
+        padding: 10px;
+
+    }
+    .hero-container .content .inner-content{
+        display: none;
+    }
+    .icon-slider .inner-slider{
+        min-width: 100%!important;
+    }
+    .footer{
+        padding: 50px 10px;
+    }
+    .footer .row{
+        flex-direction: column;
+    }
+    .footer .row .col-4,.footer .row .col-8{
+        width: 100%;
+    }
+    .footer-card {
+        width: 46%;
+        padding: 8px;
+        background: #fff;
+        border-radius: 12px;
+        margin: 5px;
+    }
+    .footer-col{
+        padding-bottom: 40px;
+    }
+    .footer-col.col-3, .footer-col.col-5{
+        width: 100%!important;
+    }
+    .footer-col.col-2{
+        width: 48%!important;
+    }
+    .my-card {
+        width: 220px;
+        padding: 15px 0px;
+        border-radius: 12px !important;
+    }
+    .carousel__prev{
+       display: none;
+    }
+    .carousel__next{
+        display: none;
+    }
+}
