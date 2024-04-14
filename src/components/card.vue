@@ -3,7 +3,7 @@
     <q-card class="my-card">
       <div class="card-image">
         <q-avatar size="120px">
-          <img src="https://cdn.quasar.dev/img/mountains.jpg" />
+          <img src="../assets/avatar.png" />
         </q-avatar>
       </div>
       <q-card-section>
